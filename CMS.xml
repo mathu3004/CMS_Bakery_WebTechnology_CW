@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews>
+    <review>
+        <name>John Doe</name>
+        <comments>The pastries are delicious and fresh! I particularly loved the croissants.</comments>
+        <rating>5</rating>
+        <date>2024-07-01</date>
+    </review>
+    <review>
+        <name>Jane Smith</name>
+        <comments>The staff was friendly and the service was quick. Great place for a morning coffee.</comments>
+        <rating>4</rating>
+        <date>2024-07-02</date>
+    </review>
+    <review>
+        <name>Michael Brown</name>
+        <comments>Good variety of bread, but the cakes were a bit too sweet for my taste.</comments>
+        <rating>3</rating>
+        <date>2024-07-03</date>
+    </review>
+    <review>
+        <name>Emily Johnson</name>
+        <comments>Fantastic bakery with a cozy atmosphere. The sourdough bread is a must-try!</comments>
+        <rating>5</rating>
+        <date>2024-07-04</date>
+    </review>
+    <review>
+        <name>David Lee</name>
+        <comments>Reasonably priced and good quality, but they ran out of my favorite muffin.</comments>
+        <rating>4</rating>
+        <date>2024-07-05</date>
+    </review>
+    <review>
+        <name>Sophia Martinez</name>
+        <comments>Amazing selection of gluten-free options. Will definitely come back!</comments>
+        <rating>5</rating>
+        <date>2024-07-06</date>
+    </review>
+    <review>
+        <name>Chris Wilson</name>
+        <comments>The coffee was perfect, and the cinnamon rolls were heavenly.</comments>
+        <rating>5</rating>
+        <date>2024-07-07</date>
+    </review>
+    <review>
+        <name>Ava Moore</name>
+        <comments>Decent place, but it gets too crowded on weekends.</comments>
+        <rating>3</rating>
+        <date>2024-07-08</date>
+    </review>
+    <review>
+        <name>Lucas Taylor</name>
+        <comments>Lovely bakery with great ambiance. The quiche was delightful.</comments>
+        <rating>4</rating>
+        <date>2024-07-09</date>
+    </review>
+    <review>
+        <name>Isabella Anderson</name>
+        <comments>The vegan cookies are the best I've ever had!</comments>
+        <rating>5</rating>
+        <date>2024-07-10</date>
+    </review>
+    <review>
+        <name>Liam Thomas</name>
+        <comments>The baguettes are just like the ones I had in France.</comments>
+        <rating>5</rating>
+        <date>2024-07-11</date>
+    </review>
+    <review>
+        <name>Emma Jackson</name>
+        <comments>Good service, but the seating area is quite small.</comments>
+        <rating>4</rating>
+        <date>2024-07-12</date>
+    </review>
+    <review>
+        <name>Mason Harris</name>
+        <comments>Fresh ingredients and tasty treats. Highly recommend.</comments>
+        <rating>5</rating>
+        <date>2024-07-13</date>
+    </review>
+    <review>
+        <name>Olivia Martin</name>
+        <comments>Great for a quick snack, but a bit pricey.</comments>
+        <rating>4</rating>
+        <date>2024-07-14</date>
+    </review>
+    <review>
+        <name>Ethan Robinson</name>
+        <comments>The lemon tarts were fantastic, but the service was slow.</comments>
+        <rating>3</rating>
+        <date>2024-07-15</date>
+    </review>
+    <review>
+        <name>Amelia Walker</name>
+        <comments>Wonderful experience! The staff went above and beyond.</comments>
+        <rating>5</rating>
+        <date>2024-07-16</date>
+    </review>
+</reviews>

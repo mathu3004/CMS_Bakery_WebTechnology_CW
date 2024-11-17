@@ -1,0 +1,93 @@
+		body {
+				font-family: 'Courier New', Courier, monospace;
+				background-color: #cfb6a4;
+				color: black;
+				margin: 0;
+				padding: 0;
+			}
+
+			.container {
+				width: 80%;
+				margin: auto;
+			}
+
+			.header {
+				text-align: center;
+				color: black;
+				border-radius: 20px;
+				background-color: #a3826c;
+				padding: 20px;
+			}
+
+			.header h1 {
+				margin: 0;
+				font-size: 2.5em;
+			}
+
+			.header p {
+				margin: 5px 0;
+				font-weight: bold;
+			}
+
+			.jump-link {
+				display: block;
+				text-align: center;
+				margin: 20px 0;
+				text-decoration: underline;
+				color: black;
+			}
+
+			.content {
+				text-align: center;
+			}
+
+			.section {
+				margin: 20px 0;
+			}
+
+			.section h2 {
+				font-size: 30px;;
+				margin: 10px 0;
+				text-decoration-line: underline;
+				text-decoration-style: double;
+			}
+			
+			.section h3 {
+				text-decoration-line: underline;
+				
+			}
+			
+			.section a {
+				color: black;
+				font-size: 25px;
+				font-weight: bold;
+			}
+			
+			.section a:hover {
+				color: black;
+				font-size: 28px;
+				font-weight: bold;
+			}
+
+
+			.section p {
+				margin: 10px 0;
+				font-family: "Times New Roman", Times, serif;
+				font-size: 18px;
+			}
+
+			.link {
+				display: block;
+				margin: 10px 0;
+				text-decoration: underline;
+				color: black;
+			}
+
+			.footer {
+				text-align: center;
+				border-radius: 20px;
+				background-color: #a3826c;
+				color: black;
+				padding: 10px;
+				font-weight: bold;
+			}

@@ -1,0 +1,357 @@
+body {
+    background-color: #F0EDEB;
+}
+
+.contents {
+       margin-top: 135px;
+   }
+
+/*ABOUTCMS CSS*/
+   
+.MainHeading {
+   text-align: center;
+   font-weight: bold;
+   color: black;
+   font-size: 40px;
+   font-family: Georgia, serif;
+   margin: 20px; 
+   text-decoration: underline;
+}
+   
+.About {
+
+   padding: 5px 20px 20px 20px;
+   font-family: "Times New Roman", Times, serif;
+   margin: 20px auto;
+   background-color: #F0EDEB;
+   border-radius: 20px;
+   border: 1px solid black;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   max-width: 800px;
+}
+.About h2 {
+  color: #62522B;
+   text-shadow: 1px 1px 2px #ae924d;
+   font-family: "Papyrus", fantasy;
+   margin-bottom: 10px;
+   font-size: 40px;
+}
+.About p {
+   color: #333333;
+   margin-bottom: 10px;
+   font-size: 20px;
+}
+.team-member {
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+}
+.team-member img {
+   border-radius: 50%;
+   margin-right: 20px;
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border: 1px black solid;
+}
+.team-member h3 {
+   margin: 0;
+   font-family: "Lucida Console", monospace;
+   color: #585654;
+   font-size: 25px;;
+}
+.team-member p {
+   margin: 5px 0 0;
+   color: #555555;
+   font-size: 20px;
+}
+.history-img {
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+   margin-bottom: 20px;
+   border: 1px black solid;
+}
+
+
+/*QUIZ CSS*/
+
+.mainContent {
+   color: #62522B;
+   text-shadow: 2px 2px 4px #62522B;
+   font-size: 40px;
+   font-family: "Papyrus", fantasy;
+   margin-top: 120px;
+   height: 535px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   background-color: #f4f4f4; /* Matching background color */
+   padding: 20px; }
+
+
+#quiz-results {
+   font-size: 30px;
+   margin-top: 20px;
+   background-color: #fff; /* Background color for quiz results */
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 100%;
+   max-width: 600px; }
+
+
+
+/*VacancyForm CSS*/
+
+   #vacancyForm {
+      margin: 140px auto 25px auto;
+      width: 700px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background: linear-gradient(160deg, #C68642, #ae924d);
+      opacity: 90%; }
+
+   #vacancyForm h1 {
+      text-align: center;
+      font-weight: bold;
+      color: black;
+      font-size: 40px;
+      font-family: "Papyrus", fantasy;
+      margin: 20px; }
+
+   legend {
+      font-size: 25px;
+      font-weight: bold; }
+
+   .form-group {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 15px; }
+
+   .form-group label {
+      flex: 1;
+      margin-right: 10px;
+      text-align: right;
+      font-size: 20px; }
+
+   #agreeCheckboxContainer {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      margin-bottom: 15px;
+      width: 100%;
+      font-size: 20px; }
+
+   #agreeCheckbox {
+      flex: 0.3;
+      margin-right: 10px; }
+
+   .form-group input,
+   .form-group textarea {
+      flex: 2;
+      padding: 8px;
+      border: 1px solid #ccc;
+      opacity: 70%;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 16px; }
+
+   .group {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 15px; }
+
+   .Genders {
+      flex: 1;
+      margin-right: 10px;
+      text-align: right;
+      font-size: 20px; }
+
+   .Radio {
+      flex: 2;
+      padding: 8px;
+      border: 1px solid #ccc;
+      opacity: 70%;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box; }
+
+   .Radio label, 
+   .Radio input {
+      font-size: 20px; }
+
+   button {
+      background-color: #355E3B;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 14px;
+      margin: 10px; }
+      
+   button[type="reset"] {
+      background-color: #8B0000; }
+      
+   form button:hover {
+      background-color: black	}
+
+   .error-message {
+      color: #380B1C;
+      margin-top: 5px;
+      font-size: 20px; } 
+
+
+/* ORDER&DELIVERY CSS */
+.OD {
+   padding: 10px 20px 15px 20px;
+   margin: 20px auto;
+   background-color: #F0EDEB;
+   border-radius: 20px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   max-width: 800px;
+   border: 1px solid black; }
+
+.OD h2 {
+   color: #62522B;
+   text-shadow: 2px 2px 4px #ae924d;
+   font-family: "Papyrus", fantasy;
+   margin-bottom: 10px;
+   font-size: 40px;
+   text-align: center;
+   padding: 10px; }
+
+.OD h3 {
+   margin: 5px;
+   font-family: Georgia, serif;
+   color: #62522B;
+   text-shadow: 1px 1px 2px #62522B;
+   font-size: 28px;
+   padding: 5px; }
+
+.OD p {
+   margin: 15px;
+   font-family: "Times New Roman", Times, serif;
+   font-size: 20px; }
+
+.contact {
+   margin: 25px;
+   padding-left: 30px; }
+
+/* Order list styling */
+.OD ol, 
+.OD ul{
+   margin: 25px; }
+
+.OD ol li, 
+.OD ul li  {
+   margin: 25px;
+   font-family: "Times New Roman", Times, serif;
+   font-size: 20px; }
+
+/* Link styling */
+.contents a{				
+   color: black;
+   text-decoration: underline;
+   font-size: 25px;
+   margin: 10px; }
+
+.contents a:hover {
+   text-decoration: none;
+   color: black;
+   font-size: 27px; }
+
+/* Table styling */
+.OD table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 15px; }
+
+.OD th {
+   text-align: center;
+   border: 1px solid black;
+   font-family: "Times New Roman", Times, serif;
+   font-size: 20px;
+   padding: 8px;
+   background-color: #7F7A76;
+   color: white; }
+
+.OD td {
+   border: 1px solid black;
+   font-family: "Times New Roman", Times, serif;
+   font-size: 20px;
+   padding: 8px;
+   text-align: left; }
+
+.OD caption {
+   caption-side: bottom;
+   font-size: 20px;
+   text-decoration: underline;
+   margin-top: 5px;
+}
+
+
+/*FAQ CSS*/
+
+.FAQ {
+   padding: 5px 20px 20px 20px;
+   margin: 20px auto;
+   background-color: #F0EDEB;
+   border-radius: 20px;
+   border: 1px solid black;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   max-width: 800px;
+}
+.FAQ h2 {
+   color: #62522B;
+   text-shadow: 1px 1px 2px #ae924d;
+   font-family: "Papyrus", fantasy;
+   margin-bottom: 10px;
+   font-size: 40px;
+}
+.FAQ table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+}
+.FAQ th, .FAQ td {
+   padding: 10px;
+   border: 2px solid black;
+   
+}
+.FAQ th {
+   background-color: #7F7A76;
+   color: white;
+   font-size: 1.2em;
+   text-align: center;
+}
+
+.questionHeading {
+   font-family: "Monaco", monospace; 
+}
+
+.answerHeading {
+   font-family: "Lucida Console", monospace; 
+}
+
+.question {
+   font-family: "Lucida Console", monospace;
+}
+
+.answer {
+   font-family: "Monaco", monospace;
+}
+
+.FAQ td {
+    background-color: #F0EDEB;
+   color: #333;
+   font-size: 1.1em;
+   text-align: left;
+}

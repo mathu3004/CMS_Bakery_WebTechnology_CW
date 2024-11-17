@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Logoo.png">	
+    <title>Welcome to CMS | Presentation Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-image: url("presentation.2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: white;
+        }
+
+        .container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .box {
+            max-width: 100%;
+            width: 90%;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .box:hover {
+            transform: translateY(-5px);
+        }
+
+        .box1 h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .box p {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .group-members {
+            font-size: 1.1rem;
+        }
+
+        .group-members p {
+            margin: 5px 0;
+        }
+
+        .footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #ffd700;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #ffff00;
+        }
+
+        @media (max-width: 600px) {
+            .box1 h1 {
+                font-size: 2rem;
+            }
+
+            .box p, .group-members {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">
+            <h1>WELCOME TO CMS!</h1>
+        </div>
+        <div class="box">
+            <p>Meet the Team:</p>
+            <div class="group-members">
+                <p>Mathusha Kannathasan</p>
+                <p>Shaithra Vilvarasha</p>
+                <p>Chanmini Weerakoon</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        &copy; 2024 CMS Bakery. All rights reserved.
+        Edited By: <a href="CMSCHANMINI.html">Chanmini_2410210_20232676</a>
+    </footer>
+
+    <script>
+               
+        setTimeout(() => {
+            window.location.href = 'CMSHOME.html';
+        }, 5000);
+        
+    </script>
+</body>
+</html>

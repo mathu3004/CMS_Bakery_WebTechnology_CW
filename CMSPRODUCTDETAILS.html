@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | CMS</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" href="COMMON.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="icon" type="image/x-icon" href="Logoo.png">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="TEXTPOPANIMATION.js" defer></script>
+	<script src="CMSSEARCH.js"></script>
+</head>
+<body>
+        <!--For topbar here the 5 different texts will change after 10s gap-->
+		<div class="topBar">
+			<span id="topBarText">Welcome to CMS Bakery!</span>
+		</div>
+		
+		<!--The main navigation bar-->
+		<div class="secondBar">
+			<img src="Logoo.png" alt="Our Bakery Logo">
+			<nav>
+				<ul id="naviList">
+					<li><a href="CMSHOME.html" title="Home Page" id="Homepage"><i class="fa fa-home"></i>HOME</a></li>
+					<li class="menu-dropdown"><a href="CMSPRODUCTS.html" title="Menu Page" id="MenuPage"><i class="fa fa-clipboard"></i>PRODUCTS</a>
+						<!--The menu will dropdown the categories when hover-->
+						<div class="category-popup">
+							<ul>
+								<li><a href="CMSPRODUCTS.html">Cakes</a></li>
+								<li><a href="CMSPRODUCTS.html">Donuts</a></li>
+								<li><a href="CMSPRODUCTS.html">Beverages</a></li>
+								<li><a href="CMSPRODUCTS.html">Brownies</a></li>
+								<li><a href="CMSPRODUCTS.html">Macaroons</a></li>
+								<li><a href="CMSPRODUCTS.html">Cupcakes</a></li>
+							</ul>
+						</div>
+					</li>
+					<!--The quiz will load in new page-->
+					<li><a href="CMSDISCOUNTQUIZ.html" id="discountmap" title="For discounts..." target="_blank"><i class="fa fa-gift"></i>PROMOTION</a></li>
+					<li><a href="CMSGALLERY.html" title="Gallery Page" id="galleryPage"><i class="fa fa-photo"></i>GALLERY</a></li>
+					<!--The abous cms also dropdown the list-->
+					<li class="aboutus-dropdown"><a href="ABOUTCMS.html" id="AboutusSite"><i class="fa fa-users"></i>ABOUT CMS</a>
+						<div class="category-popup">
+							<ul>
+								<li><a href="CMSORDER&DELIVERY.html">Order & Delivery</a></li>
+								<li><a href="CMSVACANCY.html">Join Our Crew</a></li>
+								<li><a href="CMSFAQ.html" title="For FAQs">FAQs</a></li>
+								<li><a href="ABOUTCMS.html#main">Mission</a></li>
+								<li><a href="ABOUTCMS.html#Mission">Vision</a></li>
+								<li><a href="ABOUTCMS.html#Vision">Our Team</a></li>
+								<li><a href="ABOUTCMS.html#History">History</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<!--Right corner of the second bar-->
+			<div id="iconContainer">
+				<a id="searchButton"><i class="fa fa-search"></i></a>		
+				<a href="CMSSIGNUP.html" id="loginmap" title="Membership {signup/login}" target="_blank"><i class="fa fa-user-plus"></i></a>
+				<a href="CMSCART.html" id="cartmap" title="Cart"><i class="fa fa-shopping-cart"></i></a>
+				<a href="#ContactDetails" id="contact" title="Contact details."><i class="fa fa-phone"></i></a>	
+			</div>
+			<!--Search Bar to search the products-->
+			<div class="search-bar" id="searchBar">
+				<label id="mySearchLabel">Search<br>
+				<input type="text" class="search-input" id="searchInput" placeholder="Enter your choice..." autocomplete="off">
+				<ul class="search-results" id="searchResults"></ul>
+				</label>
+			</div>
+			<!--This list will use in search-->
+			<div id="list">
+				<ul class="menu-list">
+					<li class="category-popup">
+						<a href="CMSPRODUCTS.html">Cakes</a>
+						<ul>
+							<li><a href="CMSPRODUCTDETAILS.html?category=cakes&id=1">Chocolate Cake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=cakes&id=2">Vanilla Cake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=cakes&id=3">Black Forest Cake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=cakes&id=4">Butterscotch Fudge Cake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=cakes&id=5">Red Velvet Cake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=cakes&id=6">Oreo Cake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=cakes&id=7">Mango Mousse Cake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=cakes&id=8">Kit Kat Cake</a></li>
+						</ul>
+					</li>
+					
+					<li class="category-popup">
+						<a href="CMSPRODUCTS.html">Donuts</a>
+						<ul>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Donuts&id=31">Glazed Donuts</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Donuts&id=32">Chocolate Frost Donuts</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Donuts&id=33">Boston Cream Donuts</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Donuts&id=34">Jelly Donuts</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Donuts&id=35">Cinnamon Sugar Donuts</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Donuts&id=36">Maple Bacon Donuts</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Donuts&id=37">Strawberry Frosted Donuts</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Donuts&id=38">Blueberry Donuts</a></li>
+						</ul>
+					</li>
+					
+					<li class="category-popup">
+						<a href="CMSPRODUCTS.html">Beverages</a>
+						<ul>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Beverages&id=41">Ginger Lime drink</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Beverages&id=42">Passionfruit Tea Spritzer</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Beverages&id=43">Mango Martini</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Beverages&id=44">Green Goblin</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Beverages&id=45">Blueberry Fizz</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Beverages&id=46">Ginger Citrus Tango</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Beverages&id=47">SOZO Roulette</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Beverages&id=48">Strawberry Tea Tower</a></li>
+						</ul>
+					</li>
+					
+					<li class="category-popup">
+						<a href="CMSPRODUCTS.html">Brownies</a>
+						<ul>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Brownies&id=51">Choco Chip Brownie</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Brownies&id=52">Millionaire Brownie</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Brownies&id=53">Assorted Brownies</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Brownies&id=54">Chocolate Brownie</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Brownies&id=55">Walnut Brownie</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Brownies&id=56">strawberry Brownie</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Brownies&id=57">Caramel Brownie</a></li>
+						</ul>
+					</li>
+					
+					<li class="category-popup">
+						<a href="CMSPRODUCTS.html">Macaroons</a>
+						<ul>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Macaroons&id=61">Chocolate Macaroons</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Macaroons&id=62">Vanilla Macroons</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Macaroons&id=63">Red Velvet Macroons</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Macaroons&id=64">Blue Berry Macroons</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Macaroons&id=65">Mango Macroons</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Macaroons&id=66">Orange Macroons</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Macaroons&id=67">Mint Macroons</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Macaroons&id=68">Strawberry Macroons</a></li>
+						</ul>
+					</li>
+					
+					<li class="category-popup">
+						<a href="CMSPRODUCTS.html">Cupcakes</a>
+						<ul>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Cup%20cakes&id=71">Vanilla Cupcake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Cup%20cakes&id=72">Rainbow Cupcake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Cup%20cakes&id=73">Pink Lemonade Cupcake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Cup%20cakes&id=74">Red Velvet Vixen Cupcake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Cup%20cakes&id=75">Lemon Drop Cupcake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Cup%20cakes&id=76">Chocolate Cupcake</a></li>
+							<li><a href="CMSPRODUCTDETAILS.html?category=Cup%20cakes&id=77">Mint Cupcake</a></li>						
+						</ul>
+					</li>
+					
+				</ul>
+			</div>								
+		</div>
+			
+	<div class="main">
+       
+        <div id="product-details">
+            <!-- Product details will be loaded here -->
+        </div>
+		
+		
+		
+        <div class="related-products">
+            <h2>Related Products</h2>
+            <div id="related-products-list" class="products-list">
+                <!-- Related products will be loaded here -->
+            </div>
+        </div>
+		
+		<div id="cart-sidebar" class="cart-sidebar">
+			<h2>Shopping Cart</h2>
+			<div id="cart-items"></div>
+			<div class="cart-summary">
+				<p>Subtotal: <span id="cart-subtotal">Rs0.00</span></p>
+				<button class="sidecart" onclick="checkout()">Checkout</button>
+				<button  class= "sidecart" onclick="continueShopping()">Continue Shopping</button>
+				<button class="sidecart" onclick="viewCart()">View Cart</button>
+			</div>
+		</div>
+		<div id="cart-overlay" class="cart-overlay" onclick="toggleCart()"></div>
+		
+    </div>
+    <footer class="footer">
+		<!-- Left part for opening hours & happy hours -->
+		<div class="footer-left">
+			<h3>Opening Hours</h3>
+			<p>Monday - Friday: 6:00 A.M - 10:00 P.M</p>
+			<p>Saturday - Sunday: 6:00 A.M - 11:00 P.M</p>
+			<h3>Happy Hours</h3>
+			<p>Monday - Sunday: 5:00 P.M - 7:00 P.M </br> You are in luck. </br>You can have that DONUTS WARMED UP! </br>Oh, happy day. Pick your happiness!</p>
+			<h3>Payments Accepted</h3>
+			<p>
+				<i class="fab fa-cc-visa" title="VISA"></i> 
+				<i class="fab fa-cc-mastercard" title="MASTERCARD"></i> 
+				<i class="fab fa-cc-paypal" title="PAYPAL"></i> 
+			</p>
+		</div>
+		
+		<!-- Middle part for blog and links -->
+		<div class="footer-middle">
+			<div class="gallery-container" id="gallery">
+				<h3>BLOGS</h3>
+				<div class="gallery">
+					<img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/img-3-600x600.jpg" alt="Gallery Photo 1">
+					<img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/img-12-600x600.jpg" alt="Gallery Photo 2">
+					<img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/img-5-600x600.jpg" alt="Gallery Photo 3">
+					<img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/img-18-600x600.jpg" alt="Gallery Photo 4">
+					<img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/img-17-600x600.jpg" alt="Gallery Photo 5">
+					<img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/img-13-600x600.jpg" alt="Gallery Photo 6">
+				</div>
+			</div>
+			<div class="links-container">
+				<a href="CMSABOUTUS.html" title="For AboutUs">About Us</a>
+				<a href="CMSFAQ.html" title="For FAQs">FAQs</a>
+				<a href="CMSHOME.html#faqbutton" title="For Query">Query</a>
+				<a href="CMSORDER&DELIVERY.html" title="For Order & Delivery">Order & Delivery</a>
+				<a href="CMSHOME.html#faqbutton" title="Customize Order">Customize your Order</a>
+			</div>
+		</div>
+
+		<!-- Right part for contact details and social media icons -->
+		<div class="footer-right">
+			<h3 id="ContactDetails">Contact Details</h3>
+			<p><a href="tel:+94750701210" title="Call to CMS" target="_blank"><i class="fa fa-phone"></i>  +94750701210</a></p>
+			<p><a href="https://wa.me/94750701210" title="CMS Whatsapp" target="_blank"><i class="fab fa-whatsapp"></i>  Chat with us</a></p>
+			<p><a href="https://maps.app.goo.gl/X69ka4648PPyoRio7" title="CMS Location" target="_blank"><i class="fa fa-map"></i>  27 & 29 Lauries Rd, Colombo-04.</a></p>
+			<p><a href="mailto:cmsforyou1605@gmail.com" title="CMS Email" target="_blank"><i class="fa fa-envelope"></i>  cmsforyou1605@gmail.com</a></p>
+			<h3>Follow us on:</h3>
+			<div class="social-icons">
+				<a href="https://www.instagram.com/javaloungecolombo?igsh=dDhiNjlpbjd0b21i" target="_blank" title="CMS Instagram"><i class="fab fa-instagram"></i></a>
+				<a href="https://m.facebook.com/javaloungelk/" target="_blank" title="CMS Facebook"><i class="fab fa-facebook"></i></a>
+				<a href="https://youtube.com/@cms-1605?si=sfuwIbVPg0IlnL0j" target="_blank" title="CMS Youtube"><i class="fab fa-youtube"></i></a>
+				<a href="CMSHOME.html" title="CMS Website"><i class="fab fa-google"></i></a>
+			</div>					
+		</div>
+		
+		<!-- Back to Top and Question icons -->
+		<div id="backToTop">
+			<button onclick="scrollToTop()" class="fas fa-arrow-up" title="To Top"></button>
+		</div>
+		<div id="questionIcon">
+			<a href="CMSHOME.html#faqbutton" title="For Query"><i class="fas fa-question"></i></a>
+		</div>
+		
+		<!-- Copyright & Editor line  -->
+		<div id="copy">
+			&copy; 2024 CMS Bakery. All rights reserved.    
+			Edited By: <a href="CMSSHAITHRA.html">Shaithra_2410211_20232694</a>
+		</div>
+	</footer>	
+    <script src="script.js"></script>
+</body>
+</html>

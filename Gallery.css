@@ -1,0 +1,119 @@
+.container_1 {
+    display: flex;
+    width: 100%;
+    margin-top: 140px;
+    box-sizing: border-box;
+    height: 80vh;
+    font-family: Candara, serif;
+    position: center;
+}
+
+.container_2 {
+    display: flex;
+    width: 100%;
+    margin-top:50px ;
+    margin-bottom: 50px;
+    border-color: rgb(199, 188, 140);
+    box-sizing: border-box;
+    height: 80vh;
+    font-family: Candara, serif;
+    position: relative;
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 0%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    position: relative;
+    background-color: white(167, 136, 94);
+    
+}
+
+.box > img {
+    width: 100%;
+    height: calc(100% - 10vh);
+    object-fit: cover;
+    transition: .5s;
+}
+
+.box > span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+
+.box:hover > img {
+    width: 100%;
+    height: 100%;
+}
+
+.hvr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.box:hover .hvr {
+    opacity: 1;
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    position: relative;
+}
+
+.box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover;
+    transition: .5s;
+}
+
+.box > span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+
+.box:hover > img {
+    width: 100%;
+    height: 100%;
+}
+
+.hvr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.box:hover .hvr {
+    opacity: 1;
+}

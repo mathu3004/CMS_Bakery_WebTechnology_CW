@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | CMS</title>
+    <link rel="stylesheet" href="SignUp.css">
+    <script src="TEXTPOPANIMATION.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="Logoo.png">
+</head>
+<body>
+    <video class="video-background" autoplay loop muted>
+        <source src="SignUp_bg2.mp4" type="video/mp4">
+        <track kind="captions" src="video-captions.vtt" srclang="en" label="English">
+    </video>
+    <div class="content-wrapper">
+        <div class="wrapper">
+            <form action="" id="signupForm" method="post">
+                <h1>Sign up</h1>
+                <div class="input-box">
+                    <label for="Name">Name</label>
+                    <input type="text" id="Name" name="Name">
+                </div>
+                <div class="input-box">
+                    <label for="Age">Age</label>
+                    <input type="number" id="Age" name="Age">
+                </div>
+                <div class="input-box">
+                    <label for="Gender">Gender</label>
+                    <select id="Gender" name="Gender">
+                        <option value="" disabled selected>Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="rather-not-say">Rather not say</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <label for="Occupation">Occupation</label>
+                    <input type="text" id="Occupation" name="Occupation">
+                </div>
+                <div class="input-box">
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" name="Email">
+                </div>
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="input-box">
+                    <label for="Choice">Category of choice </label>
+                    <select id="Choice" name="Choice">
+                        <option value="" disabled selected>Select Choice</option>
+                        <option value="Cakes">Cakes</option>
+                        <option value="Cupcakes">Cupcakes</option>
+                        <option value="Beverages">Beverages</option>
+                        <option value="Donuts">Donuts</option>
+                        <option value="Macaroons">Macaroons</option>
+                        <option value="Brownies">Brownies</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="wrapper button" id="button" name="button">Sign Up</button>
+                <button type="reset" class="wrapper Rbutton" name="Rbutton">Reset</button>
+                <div class="Login">
+                    <p>Already have an account? <a href="#" aria-label="Log in to your account">Login</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="UserMessage" id="UserMessage" role="alert" aria-live="assertive" style="display: none;">
+            Thank you for signing up! The recommended results will be shown shortly.
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 CMS Bakery. All rights reserved.</p>
+        <p>Edited By: <a href="CMSCHANMINI.html">Chanmini_2410210_20232676</a></p>
+    </footer>
+    <script src="signUp.js"></script>
+</body>
+</html>
